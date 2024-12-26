@@ -112,11 +112,3 @@ inline for (cJSON.include_subdirs) |subdir| {
 my_target.linkLibrary(cjson_lib);
 my_target.linkLibC();
 ```
-
-## Using `build_utils.zig`
-
-The above functionality has been wrapped in `build_utils.zig` for convenience. This means you can do:
-
-```
-// TODO
-```
